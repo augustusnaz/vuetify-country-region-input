@@ -1,6 +1,6 @@
 {
   "name": "@timbouc/vuetify-country-region-input",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vuetify country and region input select component with vue-i18n support. Use components together or standalone.",
   "private": false,
   "main": "./dist/vuetifyCountryRegionSelect.umd.min.js",

@@ -2,7 +2,7 @@
 
 This package provides a pair of Vuetify components that for countries/region select inputs. Components may be used together or standalone. Vue-i18n is also supported.
 
-![vuetify-country-region-input](./public/vuetify-country-region-input-demo.gif)
+<img src="./public/vuetify-country-region-input-demo.gif" alt="demo" width="100%"/>
 
 ---
 
