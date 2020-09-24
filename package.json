@@ -1,23 +1,63 @@
 {
-  "name": "vuetify-country-region-input",
+  "name": "@timbouc/vuetify-country-region-input",
   "version": "0.1.0",
-  "private": true,
+  "description": "A Vuetify country and region input select component with vue-i18n support. Use components together or standalone.",
+  "private": false,
+  "main": "./dist/vuetifyCountryRegionSelect.umd.min.js",
+  "files": [
+    "dist/vuetifyCountryRegionSelect.umd.min.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name vuetifyCountryRegionSelect ./src/index.js",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustusnaz/vuetify-country-region-input.git"
+  },
+  "keywords": [
+    "vue",
+    "vuetify",
+    "input",
+    "select",
+    "country",
+    "region",
+    "state",
+    "country",
+    "select",
+    "region",
+    "select",
+    "state",
+    "select",
+    "vue",
+    "component",
+    "javascript"
+  ],
+  "author": "Augustus Okoye <augustus@timbouc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augustusnaz/vuetify-country-region-input/issues"
+  },
+  "homepage": "https://github.com/augustusnaz/vuetify-country-region-input#readme",
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "tiptap-vuetify": "^1.7.0",
+    "vue": "^2.6.11",
+    "vuetify": "^2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
