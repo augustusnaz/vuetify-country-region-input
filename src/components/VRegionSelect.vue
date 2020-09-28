@@ -11,7 +11,7 @@ export default {
     extends: VSelect,
     props: {
         country: String,
-        defaultRegion: String,
+        defaultRegion: { type: String, default: 'AU' },
         countryName: { type: Boolean, default: false },
         whiteList: Array,
         blackList: Array,
@@ -27,8 +27,7 @@ export default {
         if (this.country) {
             this.getRegionWithCountry()
         } else {
-            let findRegion = this.defaultRegion ? this.defaultRegion : 'AU'
-            this.getRegionWithCountry(findRegion)
+            this.getRegionWithCountry(this.defaultRegion )
         }
     },
     computed: {
